@@ -1,0 +1,135 @@
+.page{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--light-purple1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 0 20px 0; */
+}
+.page .formCard{
+    width: 70%;
+    max-width: 600px;
+    /* min-height: 600px; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: var(--shadow3);
+    padding: 50px 50px 50px 50px;
+}
+@media screen and (max-width: 550px) {
+    .page .formCard{
+        padding: 20px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .page .formCard .inputContainer.half{
+        width: 48% !important;
+    }
+}
+.page .formCard h1{
+    font-size: 1.5rem;
+    font-weight: 650;
+    text-align: center;
+}
+.page .formCard >form {
+    margin-top: 60px;
+}
+
+.page .formCard > form .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.page .formCard > form .row .inputContainer{
+    position: relative;
+    width: 100%;
+    min-height: 85px;
+    /* word-wrap: nowrap; */
+    white-space: nowrap;
+}
+.page .formCard > form .row .inputContainer .label{
+    /* color: #333; */
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+
+.page .formCard > form .row .inputContainer input{
+    width: 100%;
+}
+.page .formCard > form .row .inputContainer.half{
+    width: 45%;
+}
+.page .formCard > form .row .inputContainer .error{
+    width: fit-content;
+    float: right;
+    color: red;
+}
+.page .formCard > form input{
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 4px 16px;
+    width: 100%;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+.page .buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.page button{
+    border: solid var(--medium-purple1) 1px;
+    background-color: var(--purple1);
+    border-radius:5px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.125rem;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.dropMenu{
+    max-height: 250px;
+    overflow: scroll;
+}
+
+.genres{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+
+}
+
+.genres .genre{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.genres .genre label{
+    width: 150px;
+}
+.genres .genre input{
+    box-shadow: none !important;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}

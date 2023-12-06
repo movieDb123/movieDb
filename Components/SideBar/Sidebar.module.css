@@ -1,0 +1,90 @@
+.sideBar{
+    /* background-color: blue; */
+    height: 100%;
+    overflow-y: auto;
+    /* position: fixed; */
+    background-color: white;
+    width: inherit;
+    min-width: 280px;
+    /* padding-top: 1.5rem; */
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    border-right: solid rgba(0,0,0,0.1) 1px;
+}
+.sideBar .top{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.75rem;
+    z-index: inherit;
+}
+.sideBar .top .logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sideBar .top .logo img{
+    width: 50px;
+}
+.sideBar .top .logo p{
+    font-size: 1.5rem;
+    color: var(--purple1);
+    font-weight: 600;
+}
+.sideBar .top .logo p span{
+    color: var(--orange1)
+}
+.sideBar .items{
+    display: flex;
+    flex-direction: column;
+    /* gap: 7px; */
+}
+.sideBar .item{
+    cursor: pointer;
+    /* margin-bottom: 14px; */
+}
+.sideBar .item .name{
+    font-size: 1.125rem;
+}
+.sideBar .flexCont{
+    display: flex;
+    flex-direction: column;
+    border-bottom:solid rgba(0,0,0,0.1) 1px;
+}
+.sideBar .accordian{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 65px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    /* border-bottom: solid rgba(0,0,0,0.1) 1px; */
+}
+.sideBar .accordian p{
+    cursor: pointer;
+    font-size: 1.0625rem;
+    font-weight: 550;
+
+}
+.sideBar .accordian p:hover{
+    color: #333;
+}
+
+.rotate{
+    transform: rotate(-180deg);
+}
+
+
+.item:hover .name {
+    color: #333;
+}
+.item:hover svg{
+    color: #333;
+}
+.item.active{
+    color: #333;
+    background-color: #f4f4f4;
+}
+.item.active .name, .item.active svg{
+    color: #333;
+}

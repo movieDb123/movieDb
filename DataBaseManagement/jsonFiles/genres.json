@@ -1,0 +1,170 @@
+[
+  {
+    "genre_id": 1,
+    "genre_name": "Dramas"
+  },
+  {
+    "genre_id": 2,
+    "genre_name": "Independent Movies"
+  },
+  {
+    "genre_id": 3,
+    "genre_name": "International Movies"
+  },
+  {
+    "genre_id": 4,
+    "genre_name": "British TV Shows"
+  },
+  {
+    "genre_id": 5,
+    "genre_name": "Reality TV"
+  },
+  {
+    "genre_id": 6,
+    "genre_name": "Comedies"
+  },
+  {
+    "genre_id": 7,
+    "genre_name": "Romantic Movies"
+  },
+  {
+    "genre_id": 8,
+    "genre_name": "Horror Movies"
+  },
+  {
+    "genre_id": 9,
+    "genre_name": "Sci-Fi & Fantasy"
+  },
+  {
+    "genre_id": 10,
+    "genre_name": "Thrillers"
+  },
+  {
+    "genre_id": 11,
+    "genre_name": "Action & Adventure"
+  },
+  {
+    "genre_id": 12,
+    "genre_name": "Classic Movies"
+  },
+  {
+    "genre_id": 13,
+    "genre_name": "Anime Features"
+  },
+  {
+    "genre_id": 14,
+    "genre_name": "Children & Family Movies"
+  },
+  {
+    "genre_id": 15,
+    "genre_name": "Documentaries"
+  },
+  {
+    "genre_id": 16,
+    "genre_name": "Music & Musicals"
+  },
+  {
+    "genre_id": 17,
+    "genre_name": "Cult Movies"
+  },
+  {
+    "genre_id": 18,
+    "genre_name": "Faith & Spirituality"
+  },
+  {
+    "genre_id": 19,
+    "genre_name": "LGBTQ Movies"
+  },
+  {
+    "genre_id": 20,
+    "genre_name": "Crime TV Shows"
+  },
+  {
+    "genre_id": 21,
+    "genre_name": "International TV Shows"
+  },
+  {
+    "genre_id": 22,
+    "genre_name": "TV Dramas"
+  },
+  {
+    "genre_id": 23,
+    "genre_name": "Romantic TV Shows"
+  },
+  {
+    "genre_id": 24,
+    "genre_name": "Spanish-Language TV Shows"
+  },
+  {
+    "genre_id": 25,
+    "genre_name": "Stand-Up Comedy"
+  },
+  {
+    "genre_id": 26,
+    "genre_name": "TV Shows"
+  },
+  {
+    "genre_id": 27,
+    "genre_name": "Movies"
+  },
+  {
+    "genre_id": 28,
+    "genre_name": "TV Comedies"
+  },
+  {
+    "genre_id": 29,
+    "genre_name": "Sports Movies"
+  },
+  {
+    "genre_id": 30,
+    "genre_name": "TV Action & Adventure"
+  },
+  {
+    "genre_id": 31,
+    "genre_name": "TV Sci-Fi & Fantasy"
+  },
+  {
+    "genre_id": 32,
+    "genre_name": "TV Mysteries"
+  },
+  {
+    "genre_id": 33,
+    "genre_name": "Docuseries"
+  },
+  {
+    "genre_id": 34,
+    "genre_name": "Anime Series"
+  },
+  {
+    "genre_id": 35,
+    "genre_name": "TV Horror"
+  },
+  {
+    "genre_id": 36,
+    "genre_name": "Teen TV Shows"
+  },
+  {
+    "genre_id": 37,
+    "genre_name": "Korean TV Shows"
+  },
+  {
+    "genre_id": 38,
+    "genre_name": "Stand-Up Comedy & Talk Shows"
+  },
+  {
+    "genre_id": 39,
+    "genre_name": "Kids' TV"
+  },
+  {
+    "genre_id": 40,
+    "genre_name": "Classic & Cult TV"
+  },
+  {
+    "genre_id": 41,
+    "genre_name": "TV Thrillers"
+  },
+  {
+    "genre_id": 42,
+    "genre_name": "Science & Nature TV"
+  }
+]
