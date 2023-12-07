@@ -24,8 +24,8 @@ export default function Sidebar({ sideBarItems }) {
         <div className={styles.sideBar} >
             <div className={styles.top}>
                 <div className={styles.logo}>
-                    <img src='/Assets/Images/img/frontpage/onlyLogo1.png' alt="logo" />
-                    <p className={styles.heading}>Prep<span>Knight</span></p>
+                    <img src='/images/logo.png' alt="logo" />
+                    <p className={styles.heading}>Movie<span>Db</span></p>
                 </div>
             </div>
             <div className={styles.items}>
@@ -33,52 +33,7 @@ export default function Sidebar({ sideBarItems }) {
                 {
                     sideBarItems.map((item, index) => {
 
-                        if (index == 1) {
-                            return (
-                                <div className={styles.flexCont}>
-
-
-                                    <Box className={`${styles.item} `}
-                                        onClick={() => {
-                                            setaccordianOpen(prev=>!prev);
-                                        }}
-                                        sx={{
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            padding: "30px 0px 30px 20px",
-                                            gap: '20px',
-                                            position: 'relative',
-                                            // '&:hover': {
-                                            //     backgroundColor: 'primary.lightest',
-                                            // }
-                                        }}
-                                    >
-                                        {/* {item.icon} */}
-                                        <Typography className={styles.name} paragraph={true} sx={{
-                                            margin: 0,
-                                            color: 'primary.main',
-                                            cursor: 'pointer',
-                                            fontWeight: 550,
-                                        }} >{item.name}</Typography>
-                                       
-
-                                    </Box>
-                                        {
-                                            accordianOpen
-                                            &&
-                                        <div className={`${styles.accordian} text-main`}>
-                                            <p onClick={()=>{router.push('')}}>Excercises</p>
-                                            <p onClick={()=>{router.push('../../../../YearlyPapers')}}>Yearly Papers</p>
-                                            <p onClick={()=>{router.push('../../../../CustomQuiz')}}>Custom Quizes</p>
-                                            <p onClick={()=>{router.push('../../../RandomQuiz')}}>Random Quizes</p>
-                                            
-                                        </div>
-                                        }
-                                </div>
-
-                            )
-                        }
-                        else
+                        
 
                         return (
                             <Box className={`${styles.item}`}

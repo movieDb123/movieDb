@@ -19,7 +19,7 @@ const sideBarItems = [
    
     {
         name: 'Watched List',
-        link: '../'
+        link: '../WatchList'
     },
 ]
 
